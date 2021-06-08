@@ -1,0 +1,310 @@
+/*Navbar*/
+
+.body {
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    flex-direction: row;
+}
+
+.navbar-title {
+    font-size: 20px;
+    color: #5f6368;
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400
+}
+
+.navbar-icon {
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #D5D6D7;
+    width: 300px;
+
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card-header {
+    background-color: #32AC71;
+    height: 120px;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    position: relative
+}
+
+.card-header-text {
+    color: white;
+    font-size: 20px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    margin:10px
+}
+
+.dot {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 5px
+}
+
+.card-header-description {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 13px;
+    position: absolute;
+    top: 100px;
+    color: #ffffff;
+}
+
+.card-footer {
+    border-top: 1px solid #D5D6D7;
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+    margin-top: 120px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5f6368;
+}
+.card-footer:hover{
+    background-color:#32AC71;
+    color: white !important;
+}
+
+.next-icon {
+
+    float: right
+}
+
+.open-text {
+    
+    font-weight: 500;
+}
+
+
+/*Login page*/
+
+.login-card {
+    max-width: 400px;
+    height: 450px;
+    border: 2px solid #D5D6D7;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-top: 50px;
+
+    padding: 10px;
+    box-shadow: 0 0 10px 2px #D5D6D7;
+}
+
+.login-text {
+    font-size: 25px;
+    color: #5f6368;
+    font-family: "Product Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400
+}
+.label{
+    color:#5f6368;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 70px;
+    margin-bottom: 40px;
+
+}
+.input{
+    border-width: 0px 0px 2px 0px;
+    border-color:#32AC71;
+    outline:none;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom:20px ;
+    width: 270px;
+}
+.button{
+    background-color: #32AC71;
+    color: #fff;
+    border-radius:5px;
+    border: none;
+    outline:none;
+    padding:5px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button:hover{
+    box-shadow: 0 0 10px 2px #32ac71;
+    cursor:pointer
+}
+.link{
+    text-decoration:none;
+    margin-top: 10px;
+    color: #32AC71;
+
+}
+.addIcon{
+    transform: scale(1.5);
+    color: #32AC71;
+    background-color: white;
+    position:fixed;
+    bottom:15px;
+    right: 15px;
+    border-radius:100%
+}
+/* clasrrom page*/
+.banner{
+    width: 800px;
+    height: 250px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px 2px #D5D6D7;
+    border-radius: 10px;
+    z-index: 1341;
+    margin: 10px auto;
+    background: #32AC71;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.banner-title{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+.textbox{
+    box-shadow: 0px 0px 10px 2px rgb(153, 201, 169);
+    padding: 10px 5px 10px 10px;
+    max-width: 780px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    align-self: center;
+    position: relative;
+    height: 30px;
+    margin:10px auto;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+  }
+  .textbox:hover:focus:focus-visible{
+    font-size: 16px;
+    box-shadow: 0px 4px 10px 2px rgb(153, 201, 169);;
+    border-radius: 10px;
+    max-width: 780px;
+    border-radius: 0px 0px 10px 10px;
+    outline: none;
+    font-size: 16px;
+    align-self: center;
+    position: relative;
+    margin:10px auto;
+    font-weight: 500;
+    
+  }
+  [contenteditable=true]:empty:before{
+    content: attr(placeholder);
+    pointer-events: none;
+    display: block; /* For Firefox */
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(128,134,139);
+  }
+  .title{
+    box-shadow: 0px 0px 10px 2px rgb(153, 201, 169);
+    padding: 10px 5px 10px 10px;
+    max-width: 780px;
+    border-radius: 10px 10px 0px 0px;
+    outline: none;
+    font-size: 19px;
+    align-self: center;
+    position: relative;
+    margin:10px auto;
+    font-weight: 500;
+  }
+  .btn{
+    background-color: #32AC71;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .btn:hover{
+    box-shadow:0px 0px 20px 5px  rgb(153, 201, 169) ;
+    filter: contrast(110%);
+    cursor: pointer;
+  }
+  .btn-group{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-right: 20px;
+      cursor: pointer;
+      
+  }
+  .announcement-card{
+      width: 780px;
+      height: auto;
+      min-height: 60px;
+      margin: 10px auto;
+      border-bottom: 1px solid #b0b2b4;
+      margin-bottom: 5px;
+  }
+  .title-ann{
+      color: #5edb9f;
+      font-size:18px
+  }
+  .content-ann{
+      padding: 5px;
+      color: rgb(128,134,139);
+      font-size: 16px;
+  }
+@media only screen and (max-width: 600px) {
+    .cards{
+        justify-content: center;
+    }
+    .banner{
+        width: 350px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .banner-title{
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .textbox{
+        width: 330px;
+        margin:10px auto
+    }
+    .title{
+        width: 330px;
+        margin: 10px auto;
+    }
+    .announcement-card{
+        width: 330px;
+        height: auto;
+        min-height: 60px;
+
+    }
+  }
